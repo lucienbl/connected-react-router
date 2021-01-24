@@ -25,7 +25,8 @@
     "lint": "eslint .",
     "test": "jest --config ./.jestrc.json",
     "test:watch": "npm run test -- --watch",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
